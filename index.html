@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="amaApp" ng-controller="amaCtrl" >
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AngularJS Project</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/mdb.min.css">
+<link rel="stylesheet" href="css/main.css">
+<style type="text/css">
+.hdrImg{
+width:100%;
+background:transparent;
+}
+.hdrImg img{
+width:100%;
+}
+</style>
+</head>
+<body data-toggle="collapse" data-target=".navbar-collapse.show">
+<header>
+<div ng-include="'templates/header.html'" ></div>
+</header>
+<main class="grey lighten-4">
+
+<div  ui-view  ></div>
+</main>
+
+
+<div class="teal"  ng-include="'templates/footer.html'" ></div>
+ 
+ <script src="assets/js/jquery.min.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+ <script src="assets/js/mdb.min.js"></script>
+ 
+ <script src="assets/angularjs/js/angular.min.js"></script>
+ <script src="assets/angularjs/js/angular-ui-router.js"></script>
+ <script src="assets/angularjs/js/angular-animate.min.js"></script>
+ <script src="assets/angularjs/js/angular-touch.min.js"></script>
+ 
+ <script src="js/init.js"></script>
+ <script src="js/amaApp.js"></script>
+ <script type="text/javascript">
+ 
+ </script>
+</body>
+</html>
