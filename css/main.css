@@ -1,0 +1,65 @@
+:root{
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html{
+height:100%;
+scroll-behavior: smooth;
+}
+body{
+padding-top:60px;
+display:flex;
+flex-direction:column;
+height:100%;
+}
+.navbar-brand{
+height:60px;
+}
+.navbar-brand img{
+height:100%;
+border:1px solid ;
+padding:2px;
+}
+header , footer {
+flex:0 0 auto;
+}
+main{
+flex: 1 0 auto;
+z-index:100 !important;
+}
+.active { 
+color: #000;
+/*font-weight: bold;*/
+background-color: rgba(0, 0, 0, 0.1); /*
+background: rgba(255, 255, 255, 0.1);*/
+}
+.wow {visibility: hidden;}
+ .rem1d1{
+ font-size:1.1rem;
+ }
+ .rem1d2{
+ font-size:1.2rem;
+ }
+ .rem1d3{
+ font-size:1.3rem;
+ }
+ .rem1d4{
+ font-size:1.4rem;
+ }
+ .rem1d5{
+ font-size:1.5rem;
+ }
+ .rem1d75{
+ font-size:1.2rem;
+ }
+ .rem2{
+ font-size:2rem;
+ }
+ .rem2d5{
+ font-size:2.5rem;
+ }
+ 
+ 
