@@ -1,7 +1,7 @@
     var amaApp = angular.module('amaApp', ['ui.router']);
     
     amaApp.config( function($stateProvider, $urlRouterProvider, $locationProvider) {
-    $locationProvider.html5Mode(true).hashPrefix('!');
+    //$locationProvider.html5Mode(true).hashPrefix('!');
     $stateProvider
     .state({
     name: 'home',
